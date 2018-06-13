@@ -24,7 +24,11 @@
           }
           echo $third . ", ";
         }
-        echo "<br />sum: $sum";
+        if($num <= 1) {
+          echo "<br />sum: 0";
+        } else {
+          echo "<br />sum: $sum";
+        }
       }
     ?>
   </body>
